@@ -1,0 +1,51 @@
+@import url(./reset.css);
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 36px 156px;
+}
+
+.search-picture-form {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 8px;
+}
+
+.search-picture-input {
+  width: 272px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding: 8px 16px;
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+  outline: transparent;
+}
+
+.search-picture-input:hover {
+  border: 1px solid #000;
+}
+
+.search-picture-input:focus {
+  border: 1px solid #4e75ff;
+}
+
+.search-picture-btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border-width: 0;
+  border-color: transparent;
+  background: #4e75ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+.gallery {
+}

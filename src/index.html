@@ -4,14 +4,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>goit-js-hw-09</title>
+  <title>goit-js-hw-11</title>
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-  <ul>
-    <li><a href="./1-gallery.html">Gallery</a></li>
-    <li><a href="./2-form.html">Form</a></li>
-  </ul>
+
+  <div class="container">
+    <form class="search-picture-form">
+
+      <input class="search-picture-input" type="text" name="user_query" placeholder="Search images..." required>
+      <button class="search-picture-btn" type="submit">Search</button>
+
+    </form>
+
+    <ul class="gallery"></ul>
+  </div>
+
+  <script type="module" src="./main.js"></script>
+
 </body>
 
 </html>
